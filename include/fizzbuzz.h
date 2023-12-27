@@ -16,7 +16,7 @@ typedef struct Matching_Items
     Matching_Item items[100];
 }Match;
 
-void CallNumGame(int num, Match *matchs, char res[100]);
+void CallNumGame(int num, char res[100]);
 
 #ifdef __cplusplus
 }
